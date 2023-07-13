@@ -25,6 +25,8 @@ body{
 
 }
 
+/* header */
+
 h1{
   background-color: grey;
   color: rgb(229, 49, 112);
@@ -32,9 +34,58 @@ h1{
   font-size: 3rem;
 }
 
+/* Section 1 */
+
 .main-text{
   margin-top: 60px;
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
+}
+
+/* Section 2 */
+
+.card-float{
+  margin-top: 60px;
+}
+
+.foto{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.info{
+  color: white;
+  width: 320px;
+  height: 150px;
+  background-color: black;
+  padding: 20px
+  display: inline-block;
+}
+
+
+
+img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.name{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.job, .email{
+  font-size: 1.2rem;
+}
+
+.info{
+  vertical-align: middle;
+}
+
+div p{
+  padding-bottom: 15px;
 }
