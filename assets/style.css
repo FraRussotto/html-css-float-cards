@@ -18,15 +18,23 @@
   clear: both;
 }
 
-header{
+body{
+  font-family: 'Fredoka', sans-serif;
   width: 60%;
   margin: 60px auto;
-  font-family: 'Fredoka', sans-serif;
-  background-color: grey;
+
 }
 
 h1{
+  background-color: grey;
   color: rgb(229, 49, 112);
   text-align: center;
   font-size: 3rem;
+}
+
+.main-text{
+  margin-top: 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
 }
