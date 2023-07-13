@@ -21,14 +21,13 @@
 body{
   font-family: 'Fredoka', sans-serif;
   width: 60%;
-  margin: 60px auto;
+  margin: 50px auto;
 
 }
 
 /* header */
 
 h1{
-  background-color: grey;
   color: rgb(229, 49, 112);
   text-align: center;
   font-size: 3rem;
@@ -46,24 +45,8 @@ h1{
 /* Section 2 */
 
 .card-float{
-  margin-top: 60px;
+  margin-top: 30px;
 }
-
-.foto{
-  width: 150px;
-  height: 150px;
-  background-color: blue;
-}
-
-.info{
-  color: white;
-  width: 320px;
-  height: 150px;
-  background-color: black;
-  padding: 20px
-}
-
-
 
 img{
   width: 150px;
@@ -80,10 +63,31 @@ img{
   font-size: 1.2rem;
 }
 
-.info{
-  vertical-align: middle;
-}
-
 div p{
   padding-bottom: 15px;
+}
+
+.tab{
+  margin: 40px 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.foto{
+  width: 150px;
+  height: 150px;
+  /* background-color: blue; */
+}
+
+.info{
+  color: white;
+  width: 320px;
+  height: 150px;
+  background-color: rgb(15, 14, 23);
+  padding: 20px
+}
+
+a{
+  text-decoration: none;
+  color: rgb(95, 194, 235);
 }
